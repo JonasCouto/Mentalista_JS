@@ -4,8 +4,7 @@ function Chutar(){
     var resultado = document.getElementById('resultado')
     var numeroSecreto = Math.floor(Math.random() * 10 + 1)
     var pegarNumero = parseInt(document.getElementById("valor").value);
-    // console.log(pegarNumero);
-    console.log(numeroSecreto);
+   
 
     if(pegarNumero > 10 || pegarNumero < 0){
         resultado.innerHTML = " Necessario informar um numero entre 0 e 10 "
